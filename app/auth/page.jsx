@@ -17,6 +17,8 @@ const page = () => {
     // react signin form
     <div className="mx-4 p-4">
       <h1>Sign In</h1>
+      <p className="text-red-400">
+        Note: This is a demo, signin with damien@damien.fr, any password will do</p>
       <form
         className="flex flex-col gap-2 w-1/3 justify-center items-center text-blue-400"
         onSubmit={handleSubmit}
